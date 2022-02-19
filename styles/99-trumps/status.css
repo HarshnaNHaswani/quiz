@@ -1,0 +1,161 @@
+/* color for status - text */
+:root {
+  --color-status-success: #30a530;
+  --color-status-error: #bd0000;
+  --color-status-warning: #c2ab29;
+  --color-status-info: #669beb;
+  --color-status-plain: #808080;
+
+  --color-inverse-status-success: #111010;
+  --color-inverse-status-error: #fdf9f9;
+  --color-inverse-status-warning: #2e2d2d;
+  --color-inverse-status-info: #202020;
+  --color-inverse-status-plain: #000000;
+
+  --color-status-active: #04ad04;
+  --color-status-busy: #aa2b2b;
+  --color-status-idle: #d68f0a;
+  --color-status-available: #5686c5;
+  --color-status-inactive: #615f5f;
+
+  --color-inverse-status-active: #111010;
+  --color-inverse-status-busy: #fdf9f9;
+  --color-inverse-status-idle: #242424;
+  --color-inverse-status-available: #0a0a0a;
+  --color-inverse-status-inactive: #ffffff;
+}
+
+
+.status-success {
+  color: var(--color-status-success);
+}
+
+.status-error {
+  color: var(--color-status-error);
+}
+
+.status-warning {
+  color: var(--color-status-warning);
+}
+
+.status-info {
+  color: var(--color-status-info);
+}
+
+.status-plain {
+  color: var(--color-status-plain);
+}
+
+.status-active {
+  color: var(--color-status-active);
+}
+
+.status-busy {
+  color: var(--color-status-busy);
+}
+
+.status-idle {
+  color: var(--color-status-idle);
+}
+
+.status-available {
+  color: var(--color-status-available);
+}
+
+.status-inactive {
+  color: var(--color-status-inactive);
+}
+
+/* color for status - border */
+.status-success-outline {
+  border: 2px solid var(--color-status-success);
+}
+
+.status-error-outline {
+  border: 2px solid var(--color-status-error);
+}
+
+.status-warning-outline {
+  border: 2px solid var(--color-status-warning);
+}
+
+.status-info-outline {
+  border: 2px solid var(--color-status-info);
+}
+
+.status-plain-outline {
+  border: 2px solid var(--color-status-plain);
+}
+
+.status-active-outline {
+  border: 2px solid var(--color-status-active);
+}
+
+.status-busy-outline {
+  border: 2px solid var(--color-status-busy);
+}
+
+.status-idle-outline {
+  border: 2px solid var(--color-status-idle);
+}
+
+.status-available-outline {
+  border: 2px solid var(--color-status-available);
+}
+
+.status-inactive-outline {
+  border: 2px solid var(--color-status-inactive);
+}
+
+
+/* background status */
+
+.status-success-bg {
+  background-color: var(--color-status-success);
+  color: var(--color-inverse-status-success);
+}
+
+.status-error-bg {
+  background-color: var(--color-status-error);
+  color: var(--color-inverse-status-error);
+}
+
+.status-warning-bg {
+  background-color: var(--color-status-warning);
+  color: var(--color-inverse-status-warning);
+}
+
+.status-info-bg {
+  background-color: var(--color-status-info);
+  color: var(--color-inverse-status-info);
+}
+
+.status-plain-bg {
+  background-color: var(--color-status-plain);
+  color: var(--color-inverse-status-plain);
+}
+
+.status-active-bg {
+  background-color: var(--color-status-active);
+  color: var(--color-inverse-status-active);
+}
+
+.status-busy-bg {
+  background-color: var(--color-status-busy);
+  color: var(--color-inverse-status-busy);
+}
+
+.status-idle-bg {
+  background-color: var(--color-status-idle);
+  color: var(--color-inverse-status-idle);
+}
+
+.status-available-bg {
+  background-color: var(--color-status-available);
+  color: var(--color-inverse-status-available);
+}
+
+.status-inactive-bg {
+  background-color: var(--color-status-inactive);
+  color: var(--color-inverse-status-inactive)
+}

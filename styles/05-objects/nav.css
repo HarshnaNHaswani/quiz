@@ -1,0 +1,27 @@
+:root {
+  --width-nav-scrolling :40vw 
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 0.5ch;
+  border-radius: 5px;
+}
+
+.nav .list-inline {
+  align-items: center;
+  margin: 0;
+  margin-left: auto;
+}
+
+.nav-site{
+  margin-bottom: 4rem;
+}
+
+.nav-scrolling {
+  max-width: var(--width-nav-scrolling);
+  overflow-x: scroll;
+}
+
+
