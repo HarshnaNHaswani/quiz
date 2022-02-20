@@ -1,0 +1,89 @@
+ body {
+   color: var(--color-text);
+   background-color: var(--color-background);
+   min-height: 100vh;
+ }
+
+ .heading,
+ .text {
+   line-height: 1.75;
+   text-align: center;
+ }
+
+ header {
+   text-align: center;
+ }
+
+
+
+ /* navigation */
+
+ .nav-site .form-item {
+   margin-left: auto;
+   width: fit-content;
+   align-self: center;
+ }
+
+ .nav-site .list-inline {
+   margin-left: auto;
+ }
+
+ #search.form-input {
+   width: clamp(30ch, 40rem, 60ch);
+ }
+
+ /* login/ signup */
+
+ .signup .form,
+ .login .form,
+ .forgot-password .form {
+   margin: auto;
+   margin-top: 5ch;
+ }
+
+ .form-item {
+   display: inline;
+   text-align: left;
+ }
+
+ /* quiz list/ bookmarks */
+
+ .card-title-float .card-header {
+   bottom: 0;
+   transform: translateY(50%);
+ }
+
+ .grid-fill {
+   grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+ }
+
+
+ /* gameplay */
+ .question-info {
+   display: flex;
+   justify-content: space-between;
+   font-weight: 300;
+   font-size: 1.2em;
+ }
+
+ .question {
+   display: flex;
+   flex-direction: column;
+   min-width: 70ch;
+   margin: 10ch 0 5ch;
+ }
+
+ .question pre,
+ .question code {
+   background-color: inherit;
+   border-radius: 5px;
+ }
+
+ .question input[type="radio"] {
+   display: none;
+ }
+
+ .question legend {
+   font-weight: 700;
+   font-size: 1.05em;
+ }

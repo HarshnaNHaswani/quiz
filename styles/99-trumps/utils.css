@@ -9,3 +9,7 @@
 .no-expansion {
   max-width: 100%;
 }
+
+.highlight {
+  color: var(--color-accent);
+}
