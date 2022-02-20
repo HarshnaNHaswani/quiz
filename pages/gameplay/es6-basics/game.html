@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang=" en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Harshna Haswani">
+  <meta name="description" content="Test yourself and grow into a rockstar developer">
+  <title> RockStar Dev — ES6 Basics</title>
+
+  <link rel="stylesheet" href="/styles/main.css">
+
+</head>
+
+<body>
+
+
+  <nav class="nav nav-site" role="main">
+    <header>
+      <h1 class="heading"><a href="/pages/quizzes.html">RockStar Dev</a></h1>
+    </header>
+    <div class="form-item status-plain-outline">
+      <input type="search" name="search" id="search" class="form-input" placeholder="search" aria-label="search"
+        autocomplete="name">
+    </div>
+    <ul class="list list-inline">
+
+
+      <li class="list-item">
+        <a href="/pages/bookmark.html">bookmark</a>
+      </li>
+
+
+
+      <li class="list-item">
+        <a href="/pages/quizzes.html">All Quizzes</a>
+      </li>
+
+
+      <li class="list-item">
+        <a href="/pages/scoreboard.html">Your Scoreboard</a>
+      </li>
+
+    </ul>
+    <button class="btn bg-accent btn-logout"><a href="/">logout</a></button>
+  </nav>
+
+
+  <header>
+    <h1 id="page-title">ES6 Basics</h1>
+  </header>
+  <main class="main-content gameplay game center-x">
+    <button class="btn bg-primary btn-quit"><a href="/pages/quizzes.html">Quit Quiz</a></button>
+
+    <section class="question">
+      <div class="question-info">
+        <span class="question-number">1 / 3</span>
+        <span class="question-points">Points: 2</span>
+      </div>
+      <fieldset class="form-item status-plain-outline">
+        <legend> Way to write functions in ES6</legend>
+        <div>
+          <input type="radio" id="q1-choice-1" name="q1-choice" value="q1-choice-1">
+          <label for="q1-choice-1">
+            <pre>
+          <code>
+            let logName = (name) => console.log(name);
+          </code>
+        </pre>
+          </label>
+        </div>
+        <div>
+          <input type="radio" id="q1-choice-2" name="q1-choice" value="q1-choice-2" checked>
+          <label for="q1-choice-2" class="right-choice status-success-bg">
+            <pre>
+          <code>
+            const logName = name => console.log(name);
+          </code>
+        </pre>
+          </label>
+        </div>
+        <div>
+          <input type="radio" id="q1-choice-3" name="q1-choice" value="q1-choice-3">
+          <label for="q1-choice-3">
+            <pre>
+          <code>
+            function logName(name) {
+              console.log(name);
+            }
+          </code>
+        </pre>
+          </label>
+        </div>
+      </fieldset>
+    </section>
+
+    <section class="question">
+      <div class="question-info">
+        <span class="question-number">2 / 3</span>
+        <span class="question-points">Points: -1</span>
+      </div>
+      <fieldset class="form-item status-plain-outline">
+        <legend>Way to return objects from functions</legend>
+        <div>
+          <input type="radio" id="q3-choice-1" name="q3-choice" value="q3-choice-1">
+          <label for="q3-choice-1" class="wrong-choice status-error-bg">
+            <pre>
+          <code>
+            const getObj = () => {name:'Harshna'};
+          </code>
+        </pre>
+          </label>
+        </div>
+        <div>
+          <input type="radio" id="q3-choice-2" name="q3-choice" value="q3-choice-2">
+          <label for="q3-choice-2">
+            <pre>
+          <code>
+            const getObj = () => { return {name:'Harshna'};}
+          </code>
+        </pre>
+          </label>
+        </div>
+        <div>
+          <input type="radio" id="q3-choice-3" name="q3-choice" value="q3-choice-3">
+          <label for="q3-choice-3" class="right-choice status-success-bg">
+            <pre>
+          <code>
+            const getObj = () => ({name:'Harshna'});
+          </code>
+        </pre>
+          </label>
+        </div>
+      </fieldset>
+    </section>
+
+    <section class="question">
+      <div class="question-info">
+        <span class="question-number">3 / 3</span>
+        <span class="question-points">Points: 0</span>
+      </div>
+      <fieldset class="form-item status-plain-outline">
+        <legend>How to destructure an array</legend>
+        <div>
+          <input type="radio" id="q2-choice-1" name="q2-choice" value="q2-choice-1">
+          <label for="q2-choice-1">
+            <pre>
+          <code>
+            const array = [14, 67];
+            const [num1, num2] = array;
+          </code>
+        </pre>
+          </label>
+        </div>
+        <div>
+          <input type="radio" id="q2-choice-2" name="q2-choice" value="q2-choice-2">
+          <label for="q2-choice-2">
+            <pre>
+          <code>
+            const array = [14, 67];
+            const num1, num2 = array;
+          </code>
+        </pre>
+          </label>
+        </div>
+      </fieldset>
+    </section>
+    <button class="btn bg-accent" type="submit"><a href="game-results.html">Submit Quiz</a></button>
+  
+
+  </main>
+
+  <footer>
+    <p>Developed by Harshna Haswani</p>
+  </footer>
+
+</body>
+
+</html>
