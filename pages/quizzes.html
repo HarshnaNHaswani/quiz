@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang=" en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Harshna Haswani">
+  <meta name="description" content="Test yourself and grow into a rockstar developer">
+  <title> RockStar Dev — All Quizzes</title>
+  <link rel="stylesheet" href="/styles/main.css">
+
+</head>
+
+<body class="quizzes ">
+
+
+  <nav class="nav nav-site" role="main">
+    <header>
+      <h1 class="heading"><a href="/pages/quizzes.html">RockStar Dev</a></h1>
+    </header>
+
+    <div class="form-item status-plain-outline">
+      <input type="search" name="search" id="search" class="form-input" placeholder="search" aria-label="search"
+        autocomplete="name">
+    </div>
+
+    <ul class="list list-inline">
+
+
+
+      <li class="list-item">
+        <a href="/pages/bookmark.html">bookmark</a>
+      </li>
+
+
+
+      <li class="list-item">
+        <a href="/pages/quizzes.html">All Quizzes</a>
+      </li>
+
+
+
+
+      <li class="list-item">
+        <a href="/pages/scoreboard.html">Your Scoreboard</a>
+      </li>
+
+
+    </ul>
+    <button class="btn bg-accent btn-logout"><a href="/">logout</a></button>
+  </nav>
+
+
+
+  <main class="main-content quizzes">
+    <aside class="filter center-x">
+      <form class="form" action="#">
+        <div class="form-item status-plain-outline">
+          <label for="range-rating">Quiz Rating</label>
+          <input type="range" min="1" max="5" value="3" class="form-input" id="range-rating">
+        </div>
+        <fieldset class="form-item status-plain-outline">
+          <legend>Category</legend>
+
+          <div>
+            <input type="checkbox" id="Database" name="category" value="Database">
+            <label for="Database">Database</label>
+          </div>
+          <div>
+            <input type="checkbox" id="JavaScript" name="category" value="JavaScript">
+            <label for="JavaScript">Vanilla JS</label>
+          </div>
+          <div>
+            <input type="checkbox" id="ReactJS" name="category" value="ReactJS">
+            <label for="ReactJS">React JS</label>
+          </div>
+          <div>
+            <input type="checkbox" id="NodeJS" name="category" value="NodeJS">
+            <label for="NodeJS">Node JS</label>
+          </div>
+          <div>
+            <input type="checkbox" id="HTML" name="category" value="HTML" checked>
+            <label for="HTML">HTML</label>
+          </div>
+          <div>
+            <input type="checkbox" id="CSS" name="category" value="CSS">
+            <label for="CSS">CSS</label>
+          </div>
+        </fieldset>
+    </aside>
+
+    <h3 class="heading heading-md category-heading">Vanilla JS</h3>
+    <section class="quiz-list grid-container grid-fill">
+      <div class="card-container card-title-float quiz-item">
+        <section class="card-primary-content">
+          <figure class="media">
+            <img src="https://picsum.photos/400/200" alt="img">
+            <figcaption>#featured #JS #ES6</figcaption>
+          </figure>
+          <header class="card-header">
+            <h2>ES6 Basics</h2>
+          </header>
+          <p class="card-body">
+            Practice the foundation of ES6 with this quiz
+            <div class="rating-wrapper wrap-primary">
+              <input type="radio" name="rating-1" id="solid-star-1">
+              <label for="solid-star-1">★</label>
+              <input type="radio" name="rating-1" id="solid-star-2">
+              <label for="solid-star-2">★</label>
+              <input type="radio" name="rating-1" id="solid-star-3">
+              <label for="solid-star-3">★</label>
+              <input type="radio" name="rating-1" id="solid-star-4">
+              <label for="solid-star-4" checked>★</label>
+              <input type="radio" name="rating-1" id="solid-star-5">
+              <label for="solid-star-5">★</label>
+            </div>
+          </p>
+        </section>
+        <section class="actions card-actions">
+          <section class="action-buttons">
+            <button class="btn outline-accent"><a href="/pages/bookmark.html">Open Bookmarks</a></button>
+            <button class="btn bg-secondary"><a href="/pages/gameplay/es6-basics/index.html">Play Now</a></button>
+          </section>
+        </section>
+      </div>
+    </section>
+    <h3 class="heading heading-md category-heading">CSS</h3>
+    <section class="quiz-list  grid-container grid-fill">
+      <div class="card-container card-title-float quiz-item">
+        <section class="card-primary-content">
+          <figure class="media">
+            <img src="https://picsum.photos/400/200" alt="img">
+            <figcaption>#featured #CSS #CSS-foundation</figcaption>
+          </figure>
+          <header class="card-header">
+            <h2>Design Foundation 1</h2>
+          </header>
+          <p class="card-body">
+            Are you design basics strong ? Test Now
+            <div class="rating-wrapper wrap-primary">
+              <input type="radio" name="rating-2" id="solid-star-1">
+              <label for="solid-star-1">★</label>
+              <input type="radio" name="rating-2" id="solid-star-2">
+              <label for="solid-star-2">★</label>
+              <input type="radio" name="rating-2" id="solid-star-3">
+              <label for="solid-star-3">★</label>
+              <input type="radio" name="rating-2" id="solid-star-4">
+              <label for="solid-star-4" checked>★</label>
+              <input type="radio" name="rating-2" id="solid-star-5">
+              <label for="solid-star-5">★</label>
+            </div>
+          </p>
+        </section>
+        <section class="actions card-actions">
+          <section class="action-buttons">
+            <button class="btn outline-secondary">Bookmark</button>
+            <button class="btn bg-secondary"><a href="/pages/gameplay/css-foundation-one/index.html">Play
+                Now</a></button>
+          </section>
+        </section>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>Developed by Harshna Haswani</p>
+  </footer>
+
+</body>
+
+</html>
