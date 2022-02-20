@@ -50,7 +50,7 @@
 
  .card-title-float .card-header {
    bottom: 0;
-   transform: translateY(50%);
+   transform: translateY(-50%);
  }
 
  .grid-fill {
@@ -86,4 +86,9 @@
  .question legend {
    font-weight: 700;
    font-size: 1.05em;
+ }
+
+ .quizzes .card-actions .btn,
+ .bookmark .card-actions .btn {
+   width: 80%;
  }

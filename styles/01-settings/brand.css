@@ -1,13 +1,13 @@
 /* primary, secondary, accent... */
 :root {
-  --color-primary: #2e2e2e;
+  --color-primary: #1b2722;
   --color-primary-inverse: #c0b7b7;
   --color-secondary: #646668;
   --color-secondary-inverse: #ffffff;
-  --color-accent: #c9003c;
-  --color-accent-inverse: #ffffff;
-  --color-text: #424242;
-  --color-background: #c0b7b7;
+  --color-accent: #24111c;
+  --color-accent-inverse: #797878;
+  --color-text: #1f1e1e;
+  --color-background: #a7a1a1;
   --color-shadow: #00000033
 }
 
