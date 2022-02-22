@@ -23,3 +23,12 @@
   max-width: var(--width-nav-scrolling);
   overflow-x: scroll;
 }
+
+@media screen and (max-width: 70em) {
+  .nav-site {
+    flex-flow: column wrap;
+  }
+  .nav-site .list-inline {
+    margin: auto;
+  }
+}

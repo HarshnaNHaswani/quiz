@@ -92,3 +92,22 @@
  .bookmark .card-actions .btn {
    width: 80%;
  }
+
+.question {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 80vw;
+}
+
+@media screen and (max-width: 37rem) {
+  .question-info {
+    justify-content: space-around;
+  }
+
+  .question label,
+  .question legend {
+    max-width: 40ch;
+    font-size: 1.33em;
+    margin: auto;
+  }
+}
